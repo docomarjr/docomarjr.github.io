@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Dr. Omar Juárez Rivera | Strategic Mind</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #0a0a0a;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        header {
+            position: fixed;
+            width: 100%;
+            padding: 20px 10%;
+            background: rgba(0,0,0,0.85);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        header h1 {
+            font-weight: 700;
+            font-size: 18px;
+            letter-spacing: 2px;
+        }
+
+        nav a {
+            color: #aaa;
+            margin-left: 25px;
+            text-decoration: none;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        section {
+            padding: 120px 10%;
+            min-height: 100vh;
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .hero h2 {
+            font-size: 60px;
+            font-weight: 900;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #bbb;
+            max-width: 600px;
+        }
+
+        .btn {
+            margin-top: 30px;
+            padding: 12px 30px;
+            border: 1px solid #fff;
+            background: transparent;
+            color: #fff;
+            text-decoration: none;
+            transition: 0.3s;
+            width: fit-content;
+        }
+
+        .btn:hover {
+            background: #fff;
+            color: #000;
+        }
+
+        h3 {
+            font-size: 36px;
+            margin-bottom: 40px;
+            font-weight: 700;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: #111;
+            padding: 30px;
+            border: 1px solid #222;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            border: 1px solid #fff;
+            transform: translateY(-5px);
+        }
+
+        .card h4 {
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 10%;
+            background: #000;
+            font-size: 14px;
+            color: #777;
+        }
+
+        @media (max-width: 768px) {
+            .hero h2 {
+                font-size: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>OMAR JUÁREZ</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#portfolio">Solutions</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>STRATEGIC THINKER.<br>ACADEMIC BUILDER.<br>PROBLEM SOLVER.</h2>
+    <p>Doctor en Administración. Especialista en gestión estratégica, talento humano y diseño de modelos educativos innovadores. Transformando conocimiento en impacto real.</p>
+    <a href="#portfolio" class="btn">View Solutions</a>
+</section>
+
+<section id="about">
+    <h3>About Me</h3>
+    <p>
+        Académico, investigador y diseñador de estrategias organizacionales. 
+        Enfocado en productividad, capital humano y modelos de negocio contemporáneos.
+        Experiencia en formación universitaria, diseño curricular y consultoría estratégica.
+    </p>
+</section>
+
+<section id="experience">
+    <h3>Experience</h3>
+    <div class="grid">
+        <div class="card">
+            <h4>Docente Universitario</h4>
+            <p>Diseño de programas académicos en economía, marketing político y administración estratégica.</p>
+        </div>
+        <div class="card">
+            <h4>Investigador</h4>
+            <p>Publicaciones en productividad laboral, mercado de trabajo y talento humano.</p>
+        </div>
+        <div class="card">
+            <h4>Consultor Estratégico</h4>
+            <p>Implementación de planes de carrera y retención de talento organizacional.</p>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio">
+    <h3>Portfolio of Solutions</h3>
+    <div class="grid">
+        <div class="card">
+            <h4>Plan de Carrera Estratégico</h4>
+            <p>Modelo integral para retención de talento con métricas de desempeño y desarrollo profesional.</p>
+        </div>
+        <div class="card">
+            <h4>Diseño de Talleres Organizacionales</h4>
+            <p>Programas de sustentabilidad emocional y liderazgo con enfoque práctico.</p>
+        </div>
+        <div class="card">
+            <h4>Modelos de Evaluación Académica</h4>
+            <p>Instrumentos validados para medición de impacto en formación universitaria.</p>
+        </div>
+        <div class="card">
+            <h4>HTML Educativo Interactivo</h4>
+            <p>Desarrollo de evaluaciones y simuladores ejecutables para plataformas universitarias.</p>
+        </div>
+        <div class="card">
+            <h4>Análisis Económico Aplicado</h4>
+            <p>Estudios sobre productividad, aranceles y participación salarial en el PIB.</p>
+        </div>
+        <div class="card">
+            <h4>Marketing Político Digital</h4>
+            <p>Estrategias de posicionamiento y construcción de narrativa política.</p>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <h3>Featured Projects</h3>
+    <div class="grid">
+        <div class="card">
+            <h4>Impulso a Proyectos Académicos</h4>
+            <p>Difusión estratégica en publicaciones científicas de alto impacto.</p>
+        </div>
+        <div class="card">
+            <h4>Programa de Formación en Capital Humano</h4>
+            <p>Diseño integral para licenciatura con enfoque en empleabilidad.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h3>Contact</h3>
+    <p>Email: omarjuarez@email.com</p>
+    <p>LinkedIn: linkedin.com/in/omarjuarez</p>
+</section>
+
+<footer>
+    © 2026 Dr. Omar Juárez Rivera — Think Big. Build Impact.
+</footer>
+
+</body>
+</html>
